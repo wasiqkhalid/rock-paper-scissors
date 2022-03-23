@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'bungee';
+    color: skyblue;    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.btn {
+    height: 10rem;
+    width: 10rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    border: 2px solid skyblue;
+    font-size: 30px;
+    font-family: 'roboto';
+    color: brown;
+}
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto';
+    text-align: center;
+    margin: 1rem;
+    gap: 5rem;
+}
+.selec-divs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.selec-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid skyblue;
+    border-radius: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 30px;
+    margin: 1rem;
+    gap: 10px;
+}
+
+.win-lose-draw {
+    display: flex;
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 900;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-btn {
+    font-family: 'roboto';
+    font-size: 15px;
+    padding: 5px 20px 5px;
+}

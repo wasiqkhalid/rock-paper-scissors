@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
-    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissor</title>
 </head>
-<body>
-    <button onclick="game()">button</button>   
-</body>
+    <body>
+        <header>
+            <h1>Rock Paper Scissor</h1>
+        </header>
+        <div class="buttons" id="buttonsDiv">
+            <button class="btn" id="0">Rock</button>
+            <button class="btn" id="1">Paper</button>
+            <button class="btn" id="2">Scissor</button>
+        </div>
+        <div class="selections">
+            <div class="selec-divs"> 
+                <p>Human</p>
+                <div class="selec-display" id="human"> 
+                </div>
+            </div>
+            <div class="selec-divs">
+                <p>Computer</p>
+                <div class="selec-display" id="computer">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="score">
+            <p>Score:</p>
+            <p id="playerScore">0</p>
+            <p>-</p>
+            <p id="computerScore">0</p>
+        </div>
+        <div id="result">
+
+        </div>
+        <div class="reset">
+            <button class="reset-btn">Play Again</button>
+        </div>
+        
+    </body>
 </html>
